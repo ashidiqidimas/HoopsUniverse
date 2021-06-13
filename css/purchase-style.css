@@ -163,21 +163,67 @@ main {
     color: #ECECEC;
 }
 
-/* Heading text */
+/* Text heading */
 
 .text-wrapper {
     /*background-color: #737373;*/
     width: 35%;
-    margin-top: 35vh;
-    padding: 1vw;
+    margin-top: 30vh;
+    padding: 1vw 1vw 1vw 3vw;
 }
 
 .text-wrapper h1 {
     margin: auto;
     font-size: 4.2vw;
-    font-weight: 900;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #3C096C;
+    line-height: 4.2vw;
 }
+
+.price-review-wrapper {
+}
+
+.price {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin: 30px 2vw 30px 0;
+    color: #4b4b4b;
+}
+
+.review {
+    display: inline-block;
+    font-size: 0.8vw;
+    letter-spacing: 4px;
+}
+
+.fas.fa-star {
+    color: #3C096C;
+}
+
+.far.fa-star {
+    color: darkgrey;
+}
+
+.review a {
+    color: #4b4b4b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.desc {
+    color: #4b4b4b;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 1.8vw;
+}
+
+
+
+
+
 
 .product-wrapper {
     width: 30%;
@@ -195,5 +241,5 @@ main {
 
 /* Testing TODO delete after testing */
 .border {
-    border: solid;
+    /*border: solid;*/
 }
