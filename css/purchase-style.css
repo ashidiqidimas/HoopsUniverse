@@ -168,7 +168,7 @@ main {
 .text-wrapper {
     /*background-color: #737373;*/
     width: 35%;
-    margin-top: 30vh;
+    margin-top: 42vh;
     padding: 1vw 1vw 1vw 3vw;
 }
 
@@ -222,8 +222,9 @@ main {
 
     /* Carousel heading */
 .carousel-wrapper {
+    position: relative;
     width: 30%;
-    padding-top: 15vh;
+    padding-top: 8vw;
 }
 
 .carousel-item img {
@@ -250,7 +251,7 @@ main {
 }
 
 .navigation-btn-wrapper {
-    margin-top: 31vh;
+    margin-top: 18vw;
     font-size: 3vw;
     display: flex;
     justify-content: center;
