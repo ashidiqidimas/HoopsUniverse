@@ -220,14 +220,50 @@ main {
     line-height: 1.8vw;
 }
 
-
-
-
-
-
-.product-wrapper {
+    /* Carousel heading */
+.carousel-wrapper {
     width: 30%;
+    padding-top: 15vh;
 }
+
+.carousel-item img {
+    width: 100%;
+}
+
+.navigation-circle {
+    margin-top: 2vw;
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    border-radius: 0.5vw;
+    height: 1vw;
+    width: 1vw;
+    background-color: darkgrey;
+    margin: 0 0.25vw;
+}
+
+.c1 {
+    width: 3vw;
+}
+
+.navigation-btn-wrapper {
+    margin-top: 31vh;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    color: #3C096C;
+}
+
+.prev {
+    margin-right: 1.5vw;
+}
+
+
+
+
 
 .picture-wrapper {
     width: 35%;
