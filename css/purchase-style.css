@@ -177,7 +177,7 @@ main {
     font-size: 4.2vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    color: #3C096C;
+    color: #4d0a8d;
     line-height: 4.2vw;
 }
 
@@ -199,7 +199,7 @@ main {
 }
 
 .fas.fa-star {
-    color: #3C096C;
+    color: #4d0a8d;
 }
 
 .far.fa-star {
@@ -220,7 +220,7 @@ main {
     line-height: 1.8vw;
 }
 
-    /* Carousel heading */
+/* Carousel heading */
 .carousel-wrapper {
     position: relative;
     width: 30%;
@@ -255,20 +255,137 @@ main {
     font-size: 3vw;
     display: flex;
     justify-content: center;
-    color: #3C096C;
+    color: #4d0a8d;
 }
 
 .prev {
     margin-right: 1.5vw;
 }
 
-
-
-
-
-.picture-wrapper {
+/* Sizing heading */
+.sizing-wrapper {
     width: 35%;
+    padding: 45vh 3vw 0;
 }
+
+.size-option-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #4d0a8d;
+    color: #4b4b4b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.size-option-wrapper p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+
+.size-option button {
+    background-color: transparent;
+    color: #4b4b4b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1vw;
+    width: 4vw;
+    cursor: pointer;
+}
+
+.selected-type {
+    border-bottom: solid 5px #4d0a8d;
+    padding-bottom: 1.2vw;
+}
+
+.size-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /*background-color: red;*/
+    height: 20vh;
+    margin: 25px 0;
+}
+
+.size {
+    width: 95%;
+    margin: auto 0;
+}
+
+.size button {
+    background-color: transparent;
+    color: #4b4b4b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1vw;
+    line-height: 3.5vw;
+    width: 3.5vw;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-right: 4%;
+}
+
+button.selected-size {
+    border-radius: 50%;
+    background-color: #4d0a8d;
+    color: #f6f6f6;
+    box-shadow: 0 0.6vw 0.7vw rgba(54, 19, 104, 0.16),
+    0 0.8vw 1vw rgba(54, 19, 104, 0.13),
+    0 1vw 1.2vw rgba(54, 19, 104, 0.1),
+    0 1.4vw 1.3vw rgba(54, 19, 104, 0.08);
+}
+
+.sizing-wrapper a {
+    margin: auto 0;
+    color: #4b4b4b;
+    font-weight: 900;
+    font-size: 0.9vw;
+}
+
+.buy-wrapper {
+    display: flex;
+}
+
+.quantity {
+    width: 50%;
+    display: flex;
+    padding-right: 12%;
+    justify-content: space-between;
+    /*background-color: red;*/
+}
+
+.quantity button {
+    background-color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 900;
+    cursor: pointer;
+    color: #4d0a8d;
+}
+
+.quantity p {
+    font-size: 3vw;
+    font-weight: 800;
+    color: #4b4b4b;
+}
+
+.buy-now {
+    /*margin-left: 5%;*/
+    width: 50%;
+    background-color: #4d0a8d;
+    font-weight: 700;
+    font-size: 1.2vw;
+    padding: 1.2vw 0;
+    border-radius: 27px;
+    color: #f6f6f6;
+    box-shadow: 0 0.6vw 0.7vw rgba(54, 19, 104, 0.16),
+    0 0.8vw 1vw rgba(54, 19, 104, 0.13),
+    0 1vw 1.2vw rgba(54, 19, 104, 0.1),
+    0 1.4vw 1.3vw rgba(54, 19, 104, 0.08);
+}
+
+/*#us {*/
+/*    margin-right: 1vw;*/
+/*}*/
+
 
 /* Section 1 */
 .section-1 {

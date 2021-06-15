@@ -94,8 +94,38 @@
                 </div>
             </div>
 
-            <div class="picture-wrapper border">
-
+            <div class="sizing-wrapper border">
+                <div class="size-option-wrapper">
+                    <p>SELECT SIZE</p>
+                    <div class="size-option">
+                        <button id="euro" class="selected-type" onclick="updateSizeLabels(this.id)">EURO</button>
+                        <button id="us" onclick="updateSizeLabels(this.id)">US</button>
+                        <button id="uk" onclick="updateSizeLabels(this.id)">UK</button>
+                    </div>
+                </div>
+                <div class="size-wrapper">
+                    <div class="size">
+                        <button id="0" onclick="selectedSize(this.id)" class="selected-size">38.5</button>
+                        <button id="1" onclick="selectedSize(this.id)">39</button>
+                        <button id="2" onclick="selectedSize(this.id)">40</button>
+                        <button id="3" onclick="selectedSize(this.id)">41</button>
+                        <button id="4" onclick="selectedSize(this.id)">42</button>
+                        <button id="5" onclick="selectedSize(this.id)">43</button>
+                        <button id="6" onclick="selectedSize(this.id)">43.5</button>
+                        <button id="7" onclick="selectedSize(this.id)">44</button>
+                        <button id="8" onclick="selectedSize(this.id)">44.5</button>
+                        <button id="9" onclick="selectedSize(this.id)">45</button>
+                    </div>
+                    <a href="size-chart.html">SIZING</a>
+                </div>
+                <div class="buy-wrapper">
+                    <div class="quantity">
+                        <button id="increment-btn" onclick="increment(this.id)">+</button>
+                        <p id="current-quantity">1</p>
+                        <button id="decrement-btn" onclick="decrement(this.id)">-</button>
+                    </div>
+                    <button class="buy-now">BUY NOW</button>
+                </div>
             </div>
         </div>
     </main>
