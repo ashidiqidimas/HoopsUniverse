@@ -79,18 +79,23 @@
             </div>
 
             <div class="carousel-wrapper border">
-                <div class="carousel-item">
+                <div class="carousel-item fade">
                     <img src="../Assets/purchase-img/lebron18/lebron-shoes-1.png" alt="">
-                    <div class="navigation-circle">
-                        <div class="circle c1"></div>
-                        <div class="circle c2"></div>
-                        <div class="circle c3"></div>
-                    </div>
                 </div>
-
+                <div class="carousel-item fade hide">
+                    <img src="../Assets/purchase-img/lebron18/lebron-shoes-2.png" alt="">
+                </div>
+                <div class="carousel-item fade hide">
+                    <img src="../Assets/purchase-img/lebron18/lebron-shoes-3.png" alt="">
+                </div>
+                    <div class="navigation-circle">
+                        <div id="c1" class="circle active"></div>
+                        <div id="c2" class="circle"></div>
+                        <div id="c3" class="circle"></div>
+                    </div>
                 <div class="navigation-btn-wrapper">
-                    <a class="prev"><i class="fas fa-arrow-circle-left"></i></a>
-                    <a class="next"><i class="fas fa-arrow-circle-right"></i></a>
+                    <a class="prev" onclick="prevSlide()"><i class="fas fa-arrow-circle-left"></i></a>
+                    <a class="next" onclick="nextSlide()"><i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
 
@@ -116,15 +121,15 @@
                         <button id="8" onclick="selectedSize(this.id)">44.5</button>
                         <button id="9" onclick="selectedSize(this.id)">45</button>
                     </div>
-                    <a href="size-chart.html">SIZING</a>
+                    <a href="size-chart.html" target="_blank" rel="noreferrer noopener">SIZE CHART</a>
                 </div>
                 <div class="buy-wrapper">
                     <div class="quantity">
-                        <button id="increment-btn" onclick="increment(this.id)">+</button>
+                        <button id="increment-btn" onclick="increment()">+</button>
                         <p id="current-quantity">1</p>
-                        <button id="decrement-btn" onclick="decrement(this.id)">-</button>
+                        <button id="decrement-btn" onclick="decrement()">-</button>
                     </div>
-                    <button class="buy-now">BUY NOW</button>
+                    <a href="#buy-form" class="buy-now">BUY NOW</a>
                 </div>
             </div>
         </div>
@@ -134,6 +139,9 @@
 
     </section>
 
+    <section id="buy-form">
+        <h2 class="section-title">ini nanti buat form</h2>
+    </section>
 
     <script src="../js/jqueryhome.js"></script>
     <script src="../js/purchase.js"></script>

@@ -4,6 +4,7 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Header */
@@ -231,6 +232,10 @@ main {
     width: 100%;
 }
 
+.hide {
+    display: none;
+}
+
 .navigation-circle {
     margin-top: 2vw;
     /*background-color: red;*/
@@ -244,9 +249,10 @@ main {
     width: 1vw;
     background-color: darkgrey;
     margin: 0 0.25vw;
+    cursor: pointer;
 }
 
-.c1 {
+.active {
     width: 3vw;
 }
 
@@ -256,6 +262,10 @@ main {
     display: flex;
     justify-content: center;
     color: #4d0a8d;
+}
+
+.navigation-btn-wrapper a {
+    cursor: pointer;
 }
 
 .prev {
@@ -307,7 +317,7 @@ main {
 }
 
 .size {
-    width: 95%;
+    width: 100%;
     margin: auto 0;
 }
 
@@ -319,8 +329,8 @@ main {
     line-height: 3.5vw;
     width: 3.5vw;
     cursor: pointer;
-    margin-bottom: 2%;
-    margin-right: 4%;
+    margin-bottom: 3%;
+    margin-right: 2%;
 }
 
 button.selected-size {
@@ -338,6 +348,8 @@ button.selected-size {
     color: #4b4b4b;
     font-weight: 900;
     font-size: 0.9vw;
+    text-align: center;
+    line-height: 1.2vw;
 }
 
 .buy-wrapper {
@@ -367,8 +379,8 @@ button.selected-size {
     color: #4b4b4b;
 }
 
-.buy-now {
-    /*margin-left: 5%;*/
+.buy-wrapper a {
+    text-decoration: none;
     width: 50%;
     background-color: #4d0a8d;
     font-weight: 700;
@@ -382,11 +394,6 @@ button.selected-size {
     0 1.4vw 1.3vw rgba(54, 19, 104, 0.08);
 }
 
-/*#us {*/
-/*    margin-right: 1vw;*/
-/*}*/
-
-
 /* Section 1 */
 .section-1 {
     height: 92.5vh;
@@ -396,4 +403,11 @@ button.selected-size {
 /* Testing TODO delete after testing */
 .border {
     /*border: solid;*/
+}
+
+/* Buy form */
+#buy-form {
+    height: 92.75vh;
+    width: 100vw;
+    background-color: red;
 }

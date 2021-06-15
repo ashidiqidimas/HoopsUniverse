@@ -30,19 +30,55 @@ function selectedSize(btn) {
     selectedSize.addClass("selected-size")
 }
 
+// Product carousel
+let index = 0;
+
+function nextSlide() {
+    if (index === 2) {
+        index = 0;
+    } else {
+        index++;
+    }
+    showImage(index)
+}
+
+function prevSlide() {
+    if (index === 0) {
+        index = 2;
+    } else {
+        index--;
+    }
+    showImage(index)
+}
+
+function showImage(n) {
+    let slides = $(".carousel-item");
+    let navigationCircle = $(".circle");
+    // console.log(slides[0].innerHTML);
+    slides.hide();
+    slides.eq(n).show()
+    navigationCircle.removeClass("active");
+    // console.log(navigationCircle);
+    navigationCircle.eq(n).addClass("active");
+}
+
+function coba() { // TODO DELETE
+    console.log("coba");
+}
+
 // Quantity selection
-function increment(btn) {
+function increment() {
     let counterLabel = $("#current-quantity");
     let counterInString = counterLabel.html();
-    var counterInInt = parseInt(counterInString);
+    let counterInInt = parseInt(counterInString);
     counterInInt++;
     document.getElementById("current-quantity").innerText = counterInInt.toString();
 }
 
-function decrement(btn) {
+function decrement() {
     let counterLabel = $("#current-quantity");
     let counterInString = counterLabel.html();
-    var counterInInt = parseInt(counterInString);
+    let counterInInt = parseInt(counterInString);
     counterInInt--;
 
     if (counterInInt === 0) {
@@ -51,3 +87,4 @@ function decrement(btn) {
         document.getElementById("current-quantity").innerText = counterInInt.toString();
     }
 }
+
