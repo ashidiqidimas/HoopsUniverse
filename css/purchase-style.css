@@ -157,11 +157,17 @@ main {
 .headline {
     position: absolute;
     /*top: 0;*/
-    font-size: 6.96vw;
-    line-height: 4.94vw;
+    /*background-color: red;*/
+    font-size: 6.8vw;
+    text-align: center;
+    line-height: 4.95vw;
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     color: #ECECEC;
+    /*display: block;*/
+    width: 97vw;
+    margin: 0 auto;
+    /*display: inline-block;*/
 }
 
 /* Text heading */
