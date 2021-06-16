@@ -175,17 +175,19 @@ main {
 .text-wrapper {
     /*background-color: #737373;*/
     width: 35%;
-    margin-top: 42vh;
-    padding: 2vh 2vh 2vh 6vh;
+    margin-top: 45vh;
+    /*padding: 2vh 2vh 2vh 3vw;*/
+    margin-left: 3vw
+;
 }
 
 .text-wrapper h1 {
     margin: auto;
-    font-size: 8vh;
+    font-size: 4vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #4d0a8d;
-    line-height: 8vh;
+    line-height: 4.2vw;
 }
 
 .price-review-wrapper {
@@ -194,14 +196,14 @@ main {
 .price {
     display: inline-block;
     font-weight: 700;
-    font-size: 4.5vh;
-    margin: 30px 5vh 30px 0;
+    font-size: 2.5vw;
+    margin: 3vh 2vw 3vh 0;
     color: #4b4b4b;
 }
 
 .review {
     display: inline-block;
-    font-size: 2vh;
+    font-size: 1vw;
     letter-spacing: 4px;
 }
 
