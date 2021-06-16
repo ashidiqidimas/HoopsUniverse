@@ -176,16 +176,16 @@ main {
     /*background-color: #737373;*/
     width: 35%;
     margin-top: 42vh;
-    padding: 1vw 1vw 1vw 3vw;
+    padding: 2vh 2vh 2vh 6vh;
 }
 
 .text-wrapper h1 {
     margin: auto;
-    font-size: 4.2vw;
+    font-size: 8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #4d0a8d;
-    line-height: 4.2vw;
+    line-height: 8vh;
 }
 
 .price-review-wrapper {
@@ -194,14 +194,14 @@ main {
 .price {
     display: inline-block;
     font-weight: 700;
-    font-size: 2.5vw;
-    margin: 30px 2vw 30px 0;
+    font-size: 4.5vh;
+    margin: 30px 5vh 30px 0;
     color: #4b4b4b;
 }
 
 .review {
     display: inline-block;
-    font-size: 0.8vw;
+    font-size: 2vh;
     letter-spacing: 4px;
 }
 
@@ -223,8 +223,8 @@ main {
 .desc {
     color: #4b4b4b;
     font-weight: 600;
-    font-size: 1vw;
-    line-height: 1.8vw;
+    font-size: 2vh;
+    line-height: 3.5vh;
 }
 
 /* Carousel heading */
